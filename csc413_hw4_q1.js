@@ -16,6 +16,7 @@ function enter_marks(){
     set_mark.value=1;
     document.querySelector("#flexible_criterion_39 > div > span > input[type=text]").value=1
     document.querySelector("#flexible_criterion_38 > div > span > input[type=text]").value=1
+    document.querySelector("#submission-selector").click()
     
     console.log("Mark set!");
 
