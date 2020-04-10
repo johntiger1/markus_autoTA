@@ -12,8 +12,9 @@
 function enter_marks(){
     
     console.log("script running");
-    const set_mark = document.querySelector("tr.rubric-level:nth-child(5)").click()
-    
+    const set_mark = document.querySelector("tr.rubric-level:nth-child(5)").click() //#rubric_criterion_21 > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(5)
+    document.querySelector("#rubric_criterion_22 > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(5)").click()
+    document.querySelector("#rubric_criterion_23 > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(5)").click()
     console.log("Mark set!");
 
     console.log("finished execution");
