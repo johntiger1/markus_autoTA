@@ -12,13 +12,14 @@
 function enter_marks(){
     
     console.log("script running");
-    const set_mark = document.querySelector("#flexible_criterion_40 > div > span > input[type=text]");
-    console.log("it it too dynamic");
-    console.log(set_mark);
+    const set_mark = document.querySelector("#flexible_criterion_40 > div > span > input[type=text]")
     set_mark.value=1;
+    document.querySelector("#flexible_criterion_39 > div > span > input[type=text]").value=1
+    document.querySelector("#flexible_criterion_38 > div > span > input[type=text]").value=1
+    
     console.log("Mark set!");
 
     console.log("finished execution");
 }
 
-setTimeout(enter_marks, 2);
+setTimeout(enter_marks, 1000); //input boxes load very rapidly; even 2 will work here
