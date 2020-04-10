@@ -12,11 +12,7 @@
 function enter_marks(){
     
     console.log("script running");
-    const set_mark = document.querySelector("#flexible_criterion_40 > div > span > input[type=text]")
-    set_mark.value=1;
-    document.querySelector("#flexible_criterion_39 > div > span > input[type=text]").value=1
-    document.querySelector("#flexible_criterion_38 > div > span > input[type=text]").value=1
-    document.querySelector("#submission-selector").click()
+    const set_mark = document.querySelector("tr.rubric-level:nth-child(5)").click()
     
     console.log("Mark set!");
 
